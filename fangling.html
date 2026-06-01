@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>許芳綾 ｜ 晶豪企業 業務經理 ・ ESG 循環經濟與商品開發</title>
+<meta name="description" content="許芳綾 Fang-Ling Hsu — 晶豪企業股份有限公司業務經理（二代）。專注 ESG 環保塑膠商品開發、消費後再生循環經濟，整合上下游夥伴，把人脈變成長期合作的資源。" />
+<meta property="og:title" content="許芳綾 ｜ 晶豪企業 業務經理 ・ ESG 循環經濟與商品開發" />
+<meta property="og:description" content="把人脈變成產品，把產品變成長期合作的資源 — 打造對地球友善的循環經濟。" />
+<meta property="og:type" content="profile" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Playfair+Display:wght@600;700;900&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#10241c;
+    --ink-soft:#3a5247;
+    --paper:#f6f8f4;
+    --paper-2:#eef3ea;
+    --forest:#16433a;
+    --forest-2:#1f6f5c;
+    --ocean:#0e8c9c;
+    --teal:#1bb39a;
+    --gold:#d8a23a;
+    --gold-soft:#f0c873;
+    --line:rgba(16,36,28,.10);
+    --card:rgba(255,255,255,.72);
+    --shadow:0 18px 50px -22px rgba(16,67,58,.45);
+    --r:22px;
+    --max:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Noto Sans TC",system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .serif{font-family:"Playfair Display","Noto Sans TC",serif}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--gold-soft);color:var(--forest)}
+
+  /* ---------- NAV ---------- */
+  header.nav{
+    position:fixed;inset:0 0 auto 0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px clamp(18px,5vw,54px);
+    transition:.4s ease;
+  }
+  header.nav.scrolled{
+    background:rgba(246,248,244,.82);
+    backdrop-filter:saturate(160%) blur(14px);
+    box-shadow:0 1px 0 var(--line);
+    padding-top:12px;padding-bottom:12px;
+  }
+  .brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.04em}
+  .brand .mono{
+    width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
+    background:linear-gradient(135deg,var(--forest-2),var(--ocean));
+    color:#fff;font-family:"Playfair Display",serif;font-weight:900;font-size:19px;
+    box-shadow:var(--shadow);
+  }
+  nav.links{display:flex;gap:8px;align-items:center}
+  nav.links a{
+    padding:8px 14px;border-radius:999px;font-size:14.5px;font-weight:500;color:var(--ink-soft);
+    transition:.25s;
+  }
+  nav.links a:hover{color:var(--forest);background:rgba(31,111,92,.10)}
+  nav.links a.cta{
+    background:linear-gradient(135deg,var(--forest-2),var(--ocean));color:#fff;font-weight:700;
+    box-shadow:var(--shadow);
+  }
+  nav.links a.cta:hover{filter:brightness(1.06);transform:translateY(-1px)}
+  .menu-btn{display:none;background:none;border:0;cursor:pointer;font-size:24px;color:var(--forest)}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;min-height:100vh;display:flex;align-items:center;
+    padding:120px clamp(18px,5vw,54px) 80px;overflow:hidden;
+  }
+  .hero-bg{position:absolute;inset:0;z-index:0;background:
+    radial-gradient(60% 50% at 80% 12%,rgba(27,179,154,.22),transparent 60%),
+    radial-gradient(50% 50% at 12% 88%,rgba(14,140,156,.20),transparent 60%),
+    linear-gradient(180deg,#eef3ea,#f6f8f4);}
+  .blob{position:absolute;border-radius:50%;filter:blur(48px);opacity:.55;animation:float 16s ease-in-out infinite}
+  .blob.b1{width:420px;height:420px;top:-80px;right:6%;background:radial-gradient(circle,rgba(31,111,92,.55),transparent 70%)}
+  .blob.b2{width:360px;height:360px;bottom:-60px;left:-40px;background:radial-gradient(circle,rgba(216,162,58,.45),transparent 70%);animation-delay:-6s}
+  .blob.b3{width:300px;height:300px;top:40%;left:46%;background:radial-gradient(circle,rgba(14,140,156,.40),transparent 70%);animation-delay:-3s}
+  @keyframes float{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(28px,-26px) scale(1.06)}66%{transform:translate(-22px,18px) scale(.96)}}
+
+  .hero-grid{position:relative;z-index:2;width:100%;max-width:var(--max);margin:0 auto;
+    display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13.5px;font-weight:700;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--forest-2);margin-bottom:22px}
+  .eyebrow::before{content:"";width:34px;height:2px;background:linear-gradient(90deg,var(--forest-2),var(--gold))}
+  h1.hero-name{font-size:clamp(48px,8vw,92px);line-height:1.02;font-weight:900;letter-spacing:.01em;
+    background:linear-gradient(120deg,var(--forest) 10%,var(--ocean) 55%,var(--teal) 95%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:6px}
+  .hero-en{font-size:clamp(16px,2.2vw,22px);font-weight:300;letter-spacing:.32em;color:var(--ink-soft);
+    text-transform:uppercase;margin-bottom:26px}
+  .hero-role{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+  .pill{padding:7px 16px;border-radius:999px;font-size:14px;font-weight:600;
+    background:var(--card);border:1px solid var(--line);box-shadow:0 6px 18px -12px rgba(16,67,58,.4)}
+  .pill.solid{background:linear-gradient(135deg,var(--forest),var(--forest-2));color:#fff;border:0}
+  .hero-tag{font-size:clamp(18px,2.6vw,23px);line-height:1.7;color:var(--ink-soft);max-width:30em;margin-bottom:34px}
+  .hero-tag b{color:var(--forest);font-weight:700}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px}
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:14px 26px;border-radius:999px;font-weight:700;
+    font-size:15px;transition:.28s;cursor:pointer;border:0}
+  .btn.primary{background:linear-gradient(135deg,var(--forest-2),var(--ocean));color:#fff;box-shadow:var(--shadow)}
+  .btn.primary:hover{transform:translateY(-2px);filter:brightness(1.07)}
+  .btn.ghost{background:transparent;border:1.5px solid var(--forest-2);color:var(--forest)}
+  .btn.ghost:hover{background:var(--forest-2);color:#fff}
+
+  /* portrait card */
+  .portrait{position:relative}
+  .portrait-card{position:relative;border-radius:32px;padding:30px;background:var(--card);
+    border:1px solid rgba(255,255,255,.6);box-shadow:var(--shadow);backdrop-filter:blur(10px);
+    transform:rotate(-2deg);transition:.5s}
+  .portrait-card:hover{transform:rotate(0deg) translateY(-6px)}
+  .avatar{aspect-ratio:1;border-radius:24px;display:grid;place-items:center;position:relative;overflow:hidden;
+    background:linear-gradient(150deg,var(--forest),var(--ocean) 60%,var(--teal));}
+  .avatar .ring{position:absolute;inset:0;background:
+    repeating-conic-gradient(from 0deg,rgba(255,255,255,.06) 0deg 8deg,transparent 8deg 16deg);
+    animation:spin 40s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .avatar .ini{position:relative;font-family:"Playfair Display",serif;font-weight:900;font-size:clamp(70px,12vw,120px);
+    color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.25)}
+  .avatar .sub{position:absolute;bottom:20px;font-size:13px;letter-spacing:.36em;color:rgba(255,255,255,.85);text-transform:uppercase}
+  .badge-float{position:absolute;display:flex;align-items:center;gap:9px;padding:11px 16px;border-radius:16px;
+    background:#fff;box-shadow:var(--shadow);font-weight:700;font-size:14px}
+  .badge-float .ico{font-size:18px}
+  .badge-float.t{top:6px;right:-14px;animation:float 7s ease-in-out infinite}
+  .badge-float.b{bottom:14px;left:-18px;animation:float 9s ease-in-out infinite reverse}
+
+  /* ---------- STATS STRIP ---------- */
+  .stats{position:relative;z-index:3;max-width:var(--max);margin:-40px auto 0;
+    padding:0 clamp(18px,5vw,54px)}
+  .stats-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+    border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .stat{background:rgba(255,255,255,.9);backdrop-filter:blur(8px);padding:28px 22px;text-align:center}
+  .stat .num{font-family:"Playfair Display",serif;font-weight:900;font-size:clamp(30px,4vw,44px);
+    background:linear-gradient(120deg,var(--forest),var(--ocean));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .lbl{font-size:13.5px;color:var(--ink-soft);font-weight:500;margin-top:4px}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:clamp(64px,9vw,120px) clamp(18px,5vw,54px);position:relative}
+  .wrap{max-width:var(--max);margin:0 auto}
+  .sec-head{margin-bottom:54px;max-width:42em}
+  .sec-tag{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ocean);
+    display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .sec-tag::before{content:"";width:26px;height:2px;background:var(--gold)}
+  h2.sec-title{font-size:clamp(30px,4.6vw,50px);line-height:1.12;font-weight:900;letter-spacing:.01em;margin-bottom:16px}
+  h2.sec-title .accent{background:linear-gradient(120deg,var(--forest-2),var(--ocean));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec-lead{font-size:clamp(16px,2vw,19px);color:var(--ink-soft)}
+
+  /* about */
+  #about{background:linear-gradient(180deg,var(--paper),#fff)}
+  .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+  .quote-card{background:linear-gradient(150deg,var(--forest),#0f3a31);color:#fff;border-radius:28px;
+    padding:42px 38px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .quote-card::before{content:"\201C";position:absolute;top:-20px;left:24px;font-family:"Playfair Display",serif;
+    font-size:180px;color:rgba(255,255,255,.10);line-height:1}
+  .quote-card .q{font-size:21px;line-height:1.85;font-weight:500;position:relative;margin-bottom:18px}
+  .quote-card .q.small{font-size:16px;color:rgba(255,255,255,.82);font-weight:300}
+  .quote-card .by{font-size:14px;color:var(--gold-soft);letter-spacing:.04em}
+  .info-list{display:grid;gap:14px}
+  .info-row{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;background:var(--card);
+    border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px -18px rgba(16,67,58,.5);transition:.3s}
+  .info-row:hover{transform:translateX(4px);border-color:rgba(31,111,92,.35)}
+  .info-row .k{font-size:13px;font-weight:700;color:var(--ocean);min-width:84px;letter-spacing:.04em}
+  .info-row .v{font-size:15.5px;color:var(--ink)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .chip{font-size:13px;padding:5px 13px;border-radius:999px;background:var(--paper-2);color:var(--forest);
+    border:1px solid var(--line);font-weight:500}
+
+  /* goals timeline */
+  #goals{background:
+    radial-gradient(50% 60% at 90% 0%,rgba(27,179,154,.10),transparent 60%),#fff}
+  .timeline{position:relative;margin-top:20px;display:grid;gap:26px}
+  .timeline::before{content:"";position:absolute;left:26px;top:10px;bottom:10px;width:2px;
+    background:linear-gradient(var(--forest-2),var(--ocean),var(--gold))}
+  .tl-item{position:relative;padding-left:74px}
+  .tl-dot{position:absolute;left:14px;top:6px;width:26px;height:26px;border-radius:50%;
+    background:#fff;border:3px solid var(--forest-2);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--forest)}
+  .tl-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 28px;
+    box-shadow:var(--shadow);transition:.35s}
+  .tl-card:hover{transform:translateY(-4px)}
+  .tl-when{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:#fff;background:linear-gradient(135deg,var(--forest-2),var(--ocean));padding:4px 12px;border-radius:999px;margin-bottom:12px}
+  .tl-card h3{font-size:20px;font-weight:800;margin-bottom:10px;color:var(--forest)}
+  .tl-card p{font-size:15.5px;color:var(--ink-soft);margin-bottom:8px}
+  .tl-card .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+
+  /* cards grid generic */
+  .grid{display:grid;gap:22px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:30px 28px;
+    box-shadow:var(--shadow);transition:.35s;position:relative;overflow:hidden}
+  .card::after{content:"";position:absolute;inset:0 0 auto 0;height:4px;
+    background:linear-gradient(90deg,var(--forest-2),var(--ocean),var(--teal));transform:scaleX(0);transform-origin:left;transition:.4s}
+  .card:hover{transform:translateY(-6px)}
+  .card:hover::after{transform:scaleX(1)}
+  .card .ico{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-size:24px;margin-bottom:18px;
+    background:linear-gradient(135deg,rgba(31,111,92,.14),rgba(14,140,156,.14));color:var(--forest-2)}
+  .card h3{font-size:18.5px;font-weight:800;margin-bottom:10px}
+  .card p{font-size:15px;color:var(--ink-soft)}
+  .card ul{list-style:none;display:grid;gap:9px;margin-top:6px}
+  .card li{font-size:15px;color:var(--ink-soft);padding-left:22px;position:relative}
+  .card li::before{content:"";position:absolute;left:0;top:11px;width:8px;height:8px;border-radius:3px;
+    background:linear-gradient(135deg,var(--forest-2),var(--ocean))}
+
+  /* accomplishments — dark */
+  #work{background:linear-gradient(160deg,#0f322b,#0b231e);color:#fff}
+  #work .sec-tag{color:var(--gold-soft)}
+  #work h2.sec-title,#work .sec-lead{color:#fff}
+  #work .sec-lead{color:rgba(255,255,255,.72)}
+  .work-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .work-item{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:20px;
+    padding:28px 30px;transition:.35s;backdrop-filter:blur(6px)}
+  .work-item:hover{background:rgba(255,255,255,.09);transform:translateY(-5px);border-color:rgba(216,162,58,.5)}
+  .work-item .n{font-family:"Playfair Display",serif;font-size:34px;font-weight:900;color:var(--gold-soft);opacity:.55}
+  .work-item h3{font-size:18px;font-weight:700;margin:6px 0 8px}
+  .work-item p{font-size:14.5px;color:rgba(255,255,255,.72)}
+  .logos{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .logo-chip{font-size:13px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);color:#fff;font-weight:600}
+
+  /* networks */
+  .net-grid{display:flex;flex-wrap:wrap;gap:14px}
+  .net{display:flex;align-items:center;gap:14px;padding:18px 24px;background:var(--card);border:1px solid var(--line);
+    border-radius:16px;box-shadow:0 10px 26px -20px rgba(16,67,58,.5);transition:.3s;flex:1 1 320px}
+  .net:hover{transform:translateY(-3px);border-color:rgba(31,111,92,.4)}
+  .net .dot{width:11px;height:11px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-soft));flex:none}
+  .net b{font-size:15.5px;font-weight:700}
+  .net span{display:block;font-size:13px;color:var(--ink-soft)}
+
+  /* company profile */
+  #company{background:
+    radial-gradient(46% 60% at 88% 12%,rgba(14,140,156,.12),transparent 62%),
+    linear-gradient(180deg,#fff,var(--paper))}
+  .company-panel{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:stretch}
+  .company-story{background:linear-gradient(150deg,var(--forest),#0f3a31);color:#fff;border-radius:28px;
+    padding:42px 38px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .company-story::after{content:"CHING HAO";position:absolute;right:-16px;bottom:-24px;
+    font-family:"Playfair Display",serif;font-size:76px;font-weight:900;color:rgba(255,255,255,.07);letter-spacing:.04em}
+  .company-story p{position:relative;color:rgba(255,255,255,.86);font-size:16px;margin-top:14px}
+  .company-story .btn{position:relative;margin-top:28px;background:#fff;color:var(--forest)}
+  .company-facts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .fact{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;
+    box-shadow:0 10px 28px -22px rgba(16,67,58,.5)}
+  .fact .k{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ocean);margin-bottom:8px}
+  .fact .v{font-size:17px;font-weight:800;color:var(--forest);line-height:1.45}
+  .fact .s{font-size:14px;color:var(--ink-soft);margin-top:6px}
+
+  /* CTA / contact */
+  #contact{background:linear-gradient(150deg,var(--forest),var(--ocean));color:#fff;text-align:center}
+  #contact .wrap{max-width:760px}
+  #contact h2{font-size:clamp(32px,5vw,56px);font-weight:900;line-height:1.1;margin-bottom:20px}
+  #contact p{font-size:clamp(16px,2vw,20px);color:rgba(255,255,255,.88);margin-bottom:34px}
+  .contact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px;text-align:left}
+  .cc{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.2);border-radius:18px;padding:24px;
+    transition:.3s}
+  .cc:hover{background:rgba(255,255,255,.18);transform:translateY(-4px)}
+  .cc .ico{font-size:24px;margin-bottom:10px}
+  .cc .k{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-soft);font-weight:700;margin-bottom:4px}
+  .cc .v{font-size:15.5px;font-weight:600;word-break:break-all}
+  .btn.light{background:#fff;color:var(--forest);font-size:16px;padding:16px 34px}
+  .btn.light:hover{transform:translateY(-2px);box-shadow:0 18px 40px -16px rgba(0,0,0,.4)}
+
+  footer.foot{padding:40px clamp(18px,5vw,54px);background:#0b231e;color:rgba(255,255,255,.6);
+    display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center;font-size:13.5px}
+  footer.foot .brand .mono{width:34px;height:34px;font-size:16px}
+  footer.foot .brand{color:#fff;font-size:15px}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(28px);transition:.8s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+  .reveal.d4{transition-delay:.32s}
+
+  /* responsive */
+  @media(max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:46px}
+    .portrait{max-width:420px;margin:0 auto}
+    .about-grid{grid-template-columns:1fr}
+    .company-panel{grid-template-columns:1fr}
+    .work-grid,.g3,.contact-cards{grid-template-columns:1fr 1fr}
+  }
+  @media(max-width:720px){
+    nav.links{position:fixed;inset:64px 14px auto 14px;flex-direction:column;align-items:stretch;gap:6px;
+      background:rgba(246,248,244,.97);backdrop-filter:blur(16px);padding:14px;border-radius:18px;
+      box-shadow:var(--shadow);transform:translateY(-14px);opacity:0;pointer-events:none;transition:.3s}
+    nav.links.open{transform:none;opacity:1;pointer-events:auto}
+    nav.links a{padding:12px 16px}
+    .menu-btn{display:block;z-index:60}
+    .stats-inner{grid-template-columns:1fr 1fr}
+    .g3,.g2,.work-grid,.contact-cards,.company-facts{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top">
+    <span class="mono">芳</span>
+    <span>許芳綾 <span style="font-weight:300;color:var(--ink-soft);font-size:13px">Fang-Ling Hsu</span></span>
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-label="選單">☰</button>
+  <nav class="links" id="links">
+    <a href="#about">關於我</a>
+    <a href="#goals">願景目標</a>
+    <a href="#work">專業成就</a>
+    <a href="#skills">核心能力</a>
+    <a href="#life">興趣人脈</a>
+    <a href="#company">晶豪企業</a>
+    <a href="#contact" class="cta">合作洽詢</a>
+  </nav>
+</header>
+
+<a id="top"></a>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow reveal in">晶豪企業股份有限公司 ・ 二代接班人</span>
+      <h1 class="hero-name serif reveal in d1">許芳綾</h1>
+      <div class="hero-en reveal in d1">Fang-Ling Hsu</div>
+      <div class="hero-role reveal in d2">
+        <span class="pill solid">業務經理</span>
+        <span class="pill">ESG 商品開發</span>
+        <span class="pill">循環經濟</span>
+        <span class="pill">12 年產業資歷</span>
+      </div>
+      <p class="hero-tag reveal in d3">
+        累積人脈成為產品，把產品變成<b>長期合作的資源</b>。
+        從傳統代工到品牌轉型，打造對地球友善的<b>消費後再生循環經濟</b>，
+        實現生產與獲利、環境與公益的共好。
+      </p>
+      <div class="hero-cta reveal in d4">
+        <a href="#contact" class="btn primary">尋找合作機會 →</a>
+        <a href="#goals" class="btn ghost">我的願景藍圖</a>
+      </div>
+    </div>
+    <div class="portrait reveal in d2">
+      <div class="portrait-card">
+        <div class="avatar">
+          <span class="ring"></span>
+          <span class="ini serif">芳綾</span>
+          <span class="sub">Sustainable ・ Tainan</span>
+        </div>
+      </div>
+      <div class="badge-float t"><span class="ico">🌱</span> ESG 永續實踐</div>
+      <div class="badge-float b"><span class="ico">⛰️</span> 百岳 40/100</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats reveal">
+  <div class="stats-inner">
+    <div class="stat"><div class="num">12<span style="font-size:.5em">年</span></div><div class="lbl">產業經營資歷</div></div>
+    <div class="stat"><div class="num">3+</div><div class="lbl">知名品牌代工夥伴</div></div>
+    <div class="stat"><div class="num">ISO<br><span style="font-size:.5em">9001</span></div><div class="lbl">品質管理導入</div></div>
+    <div class="stat"><div class="num">2026</div><div class="lbl">ESG 環保新品啟動</div></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">關於我 ・ About</div>
+      <h2 class="sec-title">用<span class="accent">同理心</span>溝通，<br>以行動實現對地球的承諾</h2>
+      <p class="sec-lead">我是許芳綾，晶豪企業的二代業務經理。出身台南、深耕產業 12 年，
+        相信好的商品來自願意學習與嘗試的態度，而企業的價值不只在獲利，更在於回饋環境與社會。</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="quote-card">
+          <p class="q">「豈能盡如人意，但求無愧於心。」</p>
+          <p class="by">— 父親教我的做事之道</p>
+          <p class="q small" style="margin-top:24px">己所不欲，勿施於人 —— 是我的生存之道，也是我與每一位夥伴往來的原則。</p>
+        </div>
+        <div style="margin-top:22px" class="grid g2">
+          <div class="card"><div class="ico">🤝</div><h3>成功的關鍵</h3>
+            <ul><li>願意學習、勇於嘗試新事物</li><li>善於溝通，具同理與同情心</li></ul></div>
+          <div class="card"><div class="ico">🌊</div><h3>熱愛探索</h3>
+            <ul><li>AOW 進階開放水域潛水證照</li><li>登山、潛水、騎自行車</li></ul></div>
+        </div>
+      </div>
+
+      <div class="info-list reveal d1">
+        <div class="info-row"><span class="k">現職</span><span class="v">晶豪企業股份有限公司 ・ 業務經理（二代）</span></div>
+        <div class="info-row"><span class="k">產業</span><span class="v">塑膠射出成型 ・ 模具開發 ・ 商品製造代工</span></div>
+        <div class="info-row"><span class="k">資歷</span><span class="v">產業經營 12 年；前職：和合景觀規劃設計</span></div>
+        <div class="info-row"><span class="k">基地</span><span class="v">台南市南區萬皇路 372 號 ・ 安平在地 20 餘年</span></div>
+        <div class="info-row"><span class="k">關鍵字</span>
+          <div><span class="v">把人脈轉化成長期商機</span>
+            <div class="chips">
+              <span class="chip">ESG 環保用品</span><span class="chip">企業禮品</span>
+              <span class="chip">文創商品</span><span class="chip">生活用品</span>
+              <span class="chip">循環經濟</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GOALS -->
+<section id="goals">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">願景藍圖 ・ Vision</div>
+      <h2 class="sec-title">從<span class="accent">代工</span>到<span class="accent">品牌</span>，<br>一條清楚的成長路徑</h2>
+      <p class="sec-lead">累積人脈變成產品，產品變成案源，再把案源變成長期合作的資源，最終投入公益 ——
+        這是貫穿短、中、長期的核心信念。</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot">2Y</div>
+        <div class="tl-card">
+          <span class="tl-when">短期目標 ・ 2 年內</span>
+          <h3>建立團隊，開發環保塑膠材質產品，營業額成長 2 倍</h3>
+          <p>① 取得穩定的「新產品開發案」來源，目標每月 1 件 —— 涵蓋 ESG 環保用品、企業禮品、文創商品、生活用品開發。</p>
+          <p>② 打造完整商品開發能力，整合「上下游夥伴」一條龍服務。</p>
+          <div class="tags">
+            <span class="chip">產品設計師</span><span class="chip">模具廠商</span><span class="chip">原料廠商</span>
+            <span class="chip">包裝與印刷</span><span class="chip">行銷與通路</span><span class="chip">ESG 顧問</span>
+          </div>
+        </div>
+      </div>
+      <div class="tl-item reveal d1">
+        <div class="tl-dot">5Y</div>
+        <div class="tl-card">
+          <span class="tl-when">中期目標 ・ 5 年內</span>
+          <h3>傳統代工廠 → AI 智慧工廠，並開拓自有品牌</h3>
+          <p>導入智慧製造、推出自有品牌商品，讓營業額再成長 2 倍，奠定品牌化與數位轉型的基礎。</p>
+        </div>
+      </div>
+      <div class="tl-item reveal d2">
+        <div class="tl-dot">10Y</div>
+        <div class="tl-card">
+          <span class="tl-when">長期目標 ・ 10 年後</span>
+          <h3>讓晶豪成為營業額破億的「幸福企業」</h3>
+          <p>將部份盈餘投入環境與兒童公益，實現生產對地球友善、企業與社會共好的願景。</p>
+          <div class="tags">
+            <span class="chip">消費後再生塑膠</span><span class="chip">環境公益</span><span class="chip">兒童關懷</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">專業成就 ・ Track Record</div>
+      <h2 class="sec-title">值得信賴的製造夥伴</h2>
+      <p class="sec-lead">從品質系統到知名品牌代工，每一項實績都來自對製造細節的堅持與對客戶的承諾。</p>
+    </div>
+    <div class="work-grid">
+      <div class="work-item reveal">
+        <div class="n">01</div>
+        <h3>建立 ISO 9001 品質管理系統</h3>
+        <p>協助公司導入國際品質標準，提升製造品質，增加客戶的信任與長期合作意願。</p>
+      </div>
+      <div class="work-item reveal d1">
+        <div class="n">02</div>
+        <h3>導入 5S 現場管理</h3>
+        <p>落實整理、整頓、清掃、清潔、素養／紀律，改善工廠環境，提升人文素質與生產效率。</p>
+      </div>
+      <div class="work-item reveal d2">
+        <div class="n">03</div>
+        <h3>知名品牌指定代工</h3>
+        <p>為台灣幸福企業卡、拖車車燈製造商「璨揚」代工生產製品，品質受肯定。</p>
+        <div class="logos"><span class="logo-chip">璨揚｜車燈製造</span></div>
+      </div>
+      <div class="work-item reveal d3">
+        <div class="n">04</div>
+        <h3>授權 IP 公仔製造</h3>
+        <p>為代理三麗鷗明星角色的客戶，代工生產壓克力公仔，精準呈現 IP 細節。</p>
+        <div class="logos"><span class="logo-chip">三麗鷗 IP｜壓克力公仔</span></div>
+      </div>
+      <div class="work-item reveal">
+        <div class="n">05</div>
+        <h3>外銷歐美零售製品</h3>
+        <p>為外銷歐美零售密封罐的客戶「飛綠」代工生產製品，符合國際市場品質要求。</p>
+        <div class="logos"><span class="logo-chip">飛綠｜外銷密封罐</span></div>
+      </div>
+      <div class="work-item reveal d1" style="display:grid;place-content:center;background:linear-gradient(135deg,rgba(216,162,58,.18),rgba(27,179,154,.12));border-color:rgba(216,162,58,.4)">
+        <h3 style="font-size:21px;color:var(--gold-soft)">下一個成功案例<br>等你一起完成 →</h3>
+        <p>2026 目標：5 件成功合作案</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">核心能力 ・ Skills</div>
+      <h2 class="sec-title">從設計、建模到管理的<span class="accent">全流程能力</span></h2>
+      <p class="sec-lead">具備設計工具、3D 建模、影音行銷與工廠管理的整合能力，能在商品開發的每一個環節提供專業支援。</p>
+    </div>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ico">✏️</div>
+        <h3>設計與建模</h3>
+        <ul><li>AutoCAD 製圖</li><li>SketchUp 3D 建模</li><li>Illustrator / Photoshop 排版</li></ul></div>
+      <div class="card reveal d1"><div class="ico">🎬</div>
+        <h3>影音行銷</h3>
+        <ul><li>CapCut 短影片製作</li><li>商品內容與品牌曝光</li></ul></div>
+      <div class="card reveal d2"><div class="ico">🏭</div>
+        <h3>工廠與品質管理</h3>
+        <ul><li>ISO 9001 品質管理系統</li><li>5S 現場管理</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- LIFE: interests + networks -->
+<section id="life" style="background:linear-gradient(180deg,#fff,var(--paper))">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">生活與人脈 ・ Life &amp; Networks</div>
+      <h2 class="sec-title">熱愛山海，<span class="accent">連結人與土地</span></h2>
+      <p class="sec-lead">工作之外，我在山林與海洋裡找到平衡，也透過公益與社群把善意傳遞出去。</p>
+    </div>
+
+    <div class="grid g3" style="margin-bottom:48px">
+      <div class="card reveal"><div class="ico">🥾</div><h3>運動探索</h3>
+        <ul><li>登山、潛水、騎自行車</li><li>露營與國內外自助旅行</li></ul></div>
+      <div class="card reveal d1"><div class="ico">☕</div><h3>美學與生活</h3>
+        <ul><li>品嘗小吃美食、喝咖啡</li><li>逛文創與園藝市集</li><li>看文藝展覽、聽名人講座</li></ul></div>
+      <div class="card reveal d2"><div class="ico">💚</div><h3>公益實踐</h3>
+        <ul><li>淨灘、淨山行動</li><li>關懷孩童的公益</li></ul></div>
+    </div>
+
+    <h3 class="serif reveal" style="font-size:24px;font-weight:700;margin-bottom:22px;color:var(--forest)">人際網絡 ・ Networks</h3>
+    <div class="net-grid">
+      <div class="net reveal"><span class="dot"></span><div><b>成大企協 ESG1</b><span>學員</span></div></div>
+      <div class="net reveal d1"><span class="dot"></span><div><b>成大企協 高階 9</b><span>學員</span></div></div>
+      <div class="net reveal d2"><span class="dot"></span><div><b>台科大雲嘉南校友會</b><span>執行秘書</span></div></div>
+      <div class="net reveal"><span class="dot"></span><div><b>東海景觀大聯盟</b><span>成員</span></div></div>
+      <div class="net reveal d1"><span class="dot"></span><div><b>璨榮登山會</b><span>創始成員</span></div></div>
+      <div class="net reveal d2"><span class="dot"></span><div><b>67998 登山會</b><span>創始成員</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPANY -->
+<section id="company">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-tag">晶豪企業 ・ Manufacturing Partner</div>
+      <h2 class="sec-title">以 30 年以上塑膠射出經驗，<span class="accent">把想法穩定量產</span></h2>
+      <p class="sec-lead">晶豪企業股份有限公司成立於 1993 年，位於台南南區，專注塑膠射出、模具設計與成型代工。從設計討論、模具製作到生產加工，協助品牌與企業把商品開發落地。</p>
+    </div>
+
+    <div class="company-panel">
+      <div class="company-story reveal">
+        <div class="sec-tag" style="color:var(--gold-soft)">CHING HAO ENTERPRISE</div>
+        <h3 class="serif" style="font-size:clamp(28px,4vw,42px);line-height:1.18;margin-bottom:12px">專製成型代工，串接設計與製造</h3>
+        <p>晶豪已通過 ISO 9001 品質認證並每年接受稽核，長期服務塑膠射出與客製化商品需求。近年加工材料擴展至 PC、ABS、Tritan、PBT、TPR、AS、PP 等，適合生活用品、食品容器、企業禮品、文創商品與各式塑膠零件開發。</p>
+        <a href="https://www.ching-hao.com/" target="_blank" rel="noopener" class="btn">查看公司官網 →</a>
+      </div>
+
+      <div class="company-facts">
+        <div class="fact reveal d1"><div class="k">Established</div><div class="v">1993 年成立</div><div class="s">超過 30 年塑膠射出與代工經驗</div></div>
+        <div class="fact reveal d2"><div class="k">Certification</div><div class="v">ISO 9001</div><div class="s">品質管理認證，定期稽核</div></div>
+        <div class="fact reveal d3"><div class="k">Services</div><div class="v">模具設計・塑膠射出</div><div class="s">產品設計、模具製作、生產加工</div></div>
+        <div class="fact reveal d4"><div class="k">Machines</div><div class="v">140T - 400T</div><div class="s">多台射出成型機，支援不同規格需求</div></div>
+        <div class="fact reveal"><div class="k">Materials</div><div class="v">PC / ABS / Tritan</div><div class="s">亦支援 PBT、TPR、AS、PP 等材料</div></div>
+        <div class="fact reveal d1"><div class="k">Location</div><div class="v">台南市南區</div><div class="s">萬皇路 372 號</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap reveal">
+    <div class="sec-tag" style="color:var(--gold-soft);justify-content:center">合作洽詢 ・ Let’s Collaborate</div>
+    <h2>讓我們一起，把好想法做成<br>對地球友善的好商品</h2>
+    <p>無論是 ESG 環保用品、企業禮品、文創商品或生活用品的開發與製造，
+      歡迎與我聊聊 —— 從設計、模具到生產通路，提供一條龍的整合服務。</p>
+    <a href="mailto:service@ching-hao.com?subject=商品開發合作洽詢" class="btn light">📩 預約合作洽談</a>
+
+    <div class="contact-cards">
+      <a class="cc" href="mailto:service@ching-hao.com">
+        <div class="ico">✉️</div><div class="k">Email</div><div class="v">service@ching-hao.com</div></a>
+      <div class="cc">
+        <div class="ico">🏢</div><div class="k">公司</div><div class="v">晶豪企業股份有限公司</div></div>
+      <a class="cc" href="https://www.ching-hao.com/" target="_blank" rel="noopener">
+        <div class="ico">🌐</div><div class="k">Website</div><div class="v">www.ching-hao.com</div></a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <a class="brand" href="#top"><span class="mono">芳</span><span>許芳綾 ・ Fang-Ling Hsu</span></a>
+  <span>© 2026 晶豪企業股份有限公司 ・ 用心製造，友善地球</span>
+</footer>
+
+<script>
+  // nav scroll state
+  const nav=document.getElementById('nav');
+  addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>30),{passive:true});
+
+  // mobile menu
+  const links=document.getElementById('links'),mb=document.getElementById('menuBtn');
+  mb.addEventListener('click',()=>links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+
+  // reveal on scroll
+  const io=new IntersectionObserver((es)=>{
+    es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal:not(.in)').forEach(el=>io.observe(el));
+
+  // active link spy
+  const secs=[...document.querySelectorAll('section[id]')];
+  const navLinks=[...document.querySelectorAll('nav.links a')];
+  const spy=new IntersectionObserver((es)=>{
+    es.forEach(e=>{if(e.isIntersecting){
+      navLinks.forEach(l=>l.style.color='');
+      const cur=document.querySelector('nav.links a[href="#'+e.target.id+'"]');
+      if(cur&&!cur.classList.contains('cta'))cur.style.color='var(--forest)';
+    }});
+  },{threshold:.4});
+  secs.forEach(s=>spy.observe(s));
+</script>
+</body>
+</html>

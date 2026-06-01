@@ -1,0 +1,9 @@
+{
+  "name": "fangling-company-profile-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
