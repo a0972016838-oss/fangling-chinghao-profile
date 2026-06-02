@@ -123,13 +123,16 @@
   .portrait-card:hover{transform:rotate(0deg) translateY(-6px)}
   .avatar{aspect-ratio:1;border-radius:24px;display:grid;place-items:center;position:relative;overflow:hidden;
     background:linear-gradient(150deg,var(--forest),var(--ocean) 60%,var(--teal));}
+  .avatar img{width:100%;height:100%;object-fit:cover;object-position:center 18%;display:block;position:relative;z-index:1}
+  .avatar::after{content:"";position:absolute;inset:auto 0 0 0;height:38%;
+    background:linear-gradient(180deg,transparent,rgba(9,35,30,.62));z-index:2;pointer-events:none}
   .avatar .ring{position:absolute;inset:0;background:
     repeating-conic-gradient(from 0deg,rgba(255,255,255,.06) 0deg 8deg,transparent 8deg 16deg);
-    animation:spin 40s linear infinite}
+    animation:spin 40s linear infinite;z-index:3;mix-blend-mode:soft-light}
   @keyframes spin{to{transform:rotate(360deg)}}
   .avatar .ini{position:relative;font-family:"Playfair Display",serif;font-weight:900;font-size:clamp(70px,12vw,120px);
     color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.25)}
-  .avatar .sub{position:absolute;bottom:20px;font-size:13px;letter-spacing:.36em;color:rgba(255,255,255,.85);text-transform:uppercase}
+  .avatar .sub{position:absolute;bottom:20px;font-size:13px;letter-spacing:.36em;color:rgba(255,255,255,.85);text-transform:uppercase;z-index:4}
   .badge-float{position:absolute;display:flex;align-items:center;gap:9px;padding:11px 16px;border-radius:16px;
     background:#fff;box-shadow:var(--shadow);font-weight:700;font-size:14px}
   .badge-float .ico{font-size:18px}
@@ -250,6 +253,11 @@
     font-family:"Playfair Display",serif;font-size:76px;font-weight:900;color:rgba(255,255,255,.07);letter-spacing:.04em}
   .company-story p{position:relative;color:rgba(255,255,255,.86);font-size:16px;margin-top:14px}
   .company-story .btn{position:relative;margin-top:28px;background:#fff;color:var(--forest)}
+  .company-photo{position:relative;border-radius:20px;overflow:hidden;margin:-12px 0 28px;border:1px solid rgba(255,255,255,.16);
+    box-shadow:0 18px 44px -28px rgba(0,0,0,.6)}
+  .company-photo img{width:100%;height:230px;object-fit:cover;display:block}
+  .company-photo figcaption{position:absolute;left:16px;bottom:14px;padding:6px 12px;border-radius:999px;
+    background:rgba(11,35,30,.74);color:#fff;font-size:12px;font-weight:700;letter-spacing:.08em;backdrop-filter:blur(8px)}
   .company-facts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .fact{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;
     box-shadow:0 10px 28px -22px rgba(16,67,58,.5)}
@@ -353,7 +361,7 @@
       <div class="portrait-card">
         <div class="avatar">
           <span class="ring"></span>
-          <span class="ini serif">芳綾</span>
+          <img src="AII形象照/myedit_ai_headshot013.jpg" alt="Fang-Ling Hsu professional portrait" />
           <span class="sub">Sustainable ・ Tainan</span>
         </div>
       </div>
@@ -572,6 +580,10 @@
 
     <div class="company-panel">
       <div class="company-story reveal">
+        <figure class="company-photo">
+          <img src="assets/ching-hao/conveyor-parts.jpg" alt="Ching Hao plastic injection production line with molded parts on a conveyor" />
+          <figcaption>CHING HAO PRODUCTION LINE</figcaption>
+        </figure>
         <div class="sec-tag" style="color:var(--gold-soft)">CHING HAO ENTERPRISE</div>
         <h3 class="serif" style="font-size:clamp(28px,4vw,42px);line-height:1.18;margin-bottom:12px">專製成型代工，串接設計與製造</h3>
         <p>晶豪已通過 ISO 9001 品質認證並每年接受稽核，長期服務塑膠射出與客製化商品需求。近年加工材料擴展至 PC、ABS、Tritan、PBT、TPR、AS、PP 等，適合生活用品、食品容器、企業禮品、文創商品與各式塑膠零件開發。</p>
